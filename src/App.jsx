@@ -32,7 +32,7 @@ class App extends Component {
     this.getPhotoByDate(this.formatDate(date));
   };
 
-  // ici je créer un fonction qui va récuperer la photo en fonction de la date entrée dans l'input
+  // ici je créer une fonction qui va récuperer la photo en fonction de la date entrée dans l'input
   getPhotoByDate = (date) => {
     fetch(
       `https://api.nasa.gov/planetary/apod?date=${date}&api_key=02bJOHRgY6rQUP6bV3VNoSsKAx4KpkxSedtKP42A`
